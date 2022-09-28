@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    align-items: center;
+    background-color: rgb(1, 1, 25);
+    font-family: "aktiv-grotesk", sans-serif;
+    font-size: 14px;
+    color: white;
+    
+    
+}
+
+footer{
+    background-color: yellow;
+}
+.ManuBar{
+    display: flex;
+    float: right;
+    
+}
+.ManuBar > div{
+    padding-right: 100px;
+    padding-left: 0px5px;
+    padding-top: 20px;
+    padding-bottom: 200px;
+    
+    
+
+}
+
+.smiley{
+    float: left;
+    padding-left: 100px;
+    padding-right: 0px5px;
+    padding-top: 20px;
+    padding-bottom: 200px;
+    color: white;
+
+
+}
+
+.button{
+    position: center;
+    top: 50%;
+    background-color: purple;
+    border-radius: 10px;
+    color: white;
+}
+.button:hover{
+    background-color: red;
+    transition: 0.7s;
+}
+h1{
+    font-size: 50px;
+}
+a:link {
+    text-decoration: none;
+}
+
+h2{
+    align-content: center;
+}
+h2 > strong{
+    color: purple;
+}
+.Cute > div{
+    display: flex;
+    flex-wrap: nowrap;
+    float: right;
+}
