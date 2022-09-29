@@ -1,0 +1,139 @@
+body{
+    /*align-items: center;*/
+    background-color: rgb(1, 1, 25);
+    font-family: "aktiv-grotesk", sans-serif;
+    font-size: 14px;
+    color: white;
+
+}
+article{
+    background-color: rgb(1, 1, 25);
+}
+
+.Menubar{
+    overflow: hidden;
+}
+
+.Menubar a{
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.SmileSchool{
+    float: left;
+}
+
+.mainmenu{
+
+    float: right;
+    display: flex;
+}
+.mainmenu li{
+    list-style-type: none;
+}
+
+
+
+div.container {
+    text-align: center;
+  }
+
+.container > h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    position: relative;
+    
+}
+  
+  ul.myUL {
+    display: inline-block;
+    padding: 8px;
+    padding-bottom: 0;
+
+  }
+.myUL > li {
+    float: left; 
+    list-style-type: none;
+    padding: 8px;
+    
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    background-color: purple;
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto;
+    font-size: 10px;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 80px;
+}
+.btn:hover{
+    background-color: red;
+    transition: 0.7s;
+}
+
+h2{
+    text-align: center;
+}
+h2 > strong{
+    color: purple;
+}
+
+section{
+    display: flex;
+    text-align: center;
+    
+}
+
+section > div{
+    padding: 8px;
+    margin: 0 auto;
+    
+}
+
+#AdamSmith > img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+
+#shakespear > img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+
+#socrates > img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+
+#WilhemWundt > img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+
+footer{
+    background-color: yellow;
+}
+footer img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+}
