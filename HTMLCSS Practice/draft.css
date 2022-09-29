@@ -1,5 +1,4 @@
 body{
-    display: flex;
     align-items: center;
     background-color: rgb(1, 1, 25);
     font-family: "aktiv-grotesk", sans-serif;
@@ -9,7 +8,7 @@ body{
     
 }
 
-footer{
+/*footer{
     background-color: yellow;
 }
 .ManuBar{
@@ -67,3 +66,5 @@ h2 > strong{
     flex-wrap: nowrap;
     float: right;
 }
+
+*/
